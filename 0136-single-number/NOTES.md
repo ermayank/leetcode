@@ -3,12 +3,6 @@ To use this approach you first need to understand about Bitwise XOR operator.
 Most of us who have a background in physics ( highschool level ) , are aware of the LOGIC GATES.
 One of such gates is the XOR Gate :
 According to this gate , the output is true , only if both the inputs are of opposite kind .
-That is ,
-A B Y
-0 0 0
-0 1 1
-1 0 1
-1 1 0
 
 We apply the extended version of this gate in our bitwise XOR operator.
 If we do "a^b" , it means that we are applying the XOR gate on the 2 numbers in a bitwise fashion ( on each of the corresponding bits of the numbers).

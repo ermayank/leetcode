@@ -1,6 +1,18 @@
 
 # DSA Resources and Study Plan
 
+# Table of contents
+
+- [DSA Resources and Study Plan](#dsa-resources-and-study-plan)
+  - [Curated Problems](#curated-problems)
+  - [Batch 1: Foundations and Linear Data Structures](#batch-1-foundations-and-linear-data-structures)
+    - [Week 1: Introduction to Algorithms and Basics](#week-1-introduction-to-algorithms-and-basics)
+    - [Week 2: Searching and Sorting](#week-2-searching-and-sorting)
+    - [Week 3: Linked Lists](#week-3-linked-lists)
+    - [Week 4: Stacks and Queues](#week-4-stacks-and-queues)
+
+
+
 ## Curated Problems
 - [Blind 75](https://neetcode.io/practice)
 - [Leetcode Top 100 Liked](https://leetcode.com/studyplan/top-100-liked/)

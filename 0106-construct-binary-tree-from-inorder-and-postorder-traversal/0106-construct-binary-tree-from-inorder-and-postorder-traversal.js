@@ -17,7 +17,7 @@ var buildTree = function(inorder, postorder) {
     if(!inorder.length || !postorder.length){return null};
     
     let root = new TreeNode(postorder.pop());
-    let idx = inorder.indexOf(root.val);
+    let idx = inorder.indexOf(root.val); //Linear Scan o(n)
     
     root.right = buildTree(inorder.slice(idx+1), postorder)
     root.left = buildTree(inorder.slice(0, idx), postorder)

@@ -8,7 +8,6 @@ class Solution:
         """
         Do not return anything, modify head in-place instead.
         """
-        
         # Get first and second half of the list
         slow, fast = head, head.next
         

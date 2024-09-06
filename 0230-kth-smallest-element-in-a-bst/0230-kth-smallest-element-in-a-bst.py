@@ -6,7 +6,7 @@
 #         self.right = right
 class Solution:
     def kthSmallest(self, root: Optional[TreeNode], k: int) -> int:
-        # Inorder Traversal
+        # Inorder Traversal Recursive
         res = []
         
         def dfsInorder(node):
@@ -14,7 +14,10 @@ class Solution:
                 return
             
             dfsInorder(node.left)
+            
             res.append(node.val)
+            if len(res) == k:
+                return
             dfsInorder(node.right)
         
         dfsInorder(root)
